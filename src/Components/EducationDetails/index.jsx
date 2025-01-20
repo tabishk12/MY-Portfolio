@@ -8,8 +8,8 @@ const EducationDetails = () => {
           Educational Details
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-6 gap-6 mb-6 ml-3">
-          <div className="gap-6 mt-6">
-            <div className="bg-white shadow-lg rounded-lg p-4">
+          <div className="bg-white shadow-gray-100 rounded-lg gap-6 mt-6">
+            <div className=" rounded-md p-4 transform transition duration-300  hover:scale-105 hover:shadow-lg hover:mt-1 rounded-lg p-4">
               <h3 className="text-gray-600 text-2xl text-center">
                 {" "}
                 Bachelor of Science in Information Technology
@@ -23,8 +23,8 @@ const EducationDetails = () => {
               </p>
             </div>
           </div>
-          <div className=" gap-6 mt-6">
-            <div className="bg-white shadow-lg rounded-lg p-4">
+          <div className=" bg-white shadow-gray-100 rounded-lg gap-6 mt-6">
+            <div className="rounded-md p-4 transform transition duration-300  hover:scale-105 hover:shadow-lg hover:mt-1 rounded-lg p-4">
               <h3 className="text-gray-600 text-2xl text-center">
                 HSC (12th){" "}
               </h3>
@@ -38,8 +38,8 @@ const EducationDetails = () => {
               </p>
             </div>
           </div>
-          <div className="gap-6 mt-6">
-            <div className="bg-white shadow-lg rounded-lg p-4">
+          <div className="bg-white shadow-gray-100 rounded-lg gap-6 mt-6">
+            <div className="rounded-md p-4 transform transition duration-300  hover:scale-105 hover:shadow-lg hover:mt-1 rounded-lg p-4">
               <h3 className="text-gray-600 text-2xl text-center">
                 {" "}
                 SSC (10th)

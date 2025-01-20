@@ -1,15 +1,11 @@
 import React from "react";
 import MenuMobile from "./MenuMobile";
 
-const MobileMenu = ({ isOpen, setIsOpen, downloadPDF }) => {
+const MobileMenu = ({ isOpen, setIsOpen }) => {
   return (
     <>
-      {" "}
-      {{ isOpen } ? (
-        <MenuMobile downloadPDF={downloadPDF} setIsOpen={setIsOpen} />
-      ) : (
-        " "
-      )}
+      {isOpen}
+      <MenuMobile setIsOpen={setIsOpen} />
     </>
   );
 };

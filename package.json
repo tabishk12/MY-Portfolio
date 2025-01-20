@@ -3,19 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "serve": "vite preview",
-  "preview": "vite preview",
-  "start": "vite preview"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "serve": "vite preview",
+    "preview": "vite preview",
+    "start": "vite preview"
+  },
   "engines": {
-  "node": "18.x"
-},
+    "node": "18.x"
+  },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@heroicons/react": "^2.2.0",
+    "aos": "^2.3.4",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.2",
     "link": "^2.1.1",

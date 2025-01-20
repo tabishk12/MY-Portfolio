@@ -3,7 +3,7 @@ import React from "react";
 const SkillsDescription = () => {
   return (
     <>
-      <section className="my-8">
+      <section className="my-8 p-6 md:p-12 lg:p-16 w-full ">
         <h2 className="text-3xl font-semibold text-gray-700 text-center">
           Skills
         </h2>
