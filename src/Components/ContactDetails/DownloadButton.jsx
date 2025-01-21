@@ -12,7 +12,7 @@ const DownloadButton = () => {
     <>
       <button
         onClick={downloadPDF}
-        className="border-2 bg-blue-500 text-white drop-shadow-lg rounded-lg px-1 py-1 hover:bg-blue-600 transform transition duration-900  hover:scale-105 cursor-pointer"
+        className="border-2 bg-blue-500 text-white drop-shadow-lg mt-12 rounded-lg px-1 py-[9px] rounded-lg hover:bg-blue-600 transform transition duration-900  hover:scale-105 cursor-pointer"
       >
         <p className="text-md lg:text-xl overflow-hidden">Download Resume</p>
       </button>

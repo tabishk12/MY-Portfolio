@@ -11,7 +11,7 @@ import ProfileImage from "./Profile-Image";
 const DetailsScreen = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration in milliseconds
+      duration: 2000, // Animation duration in milliseconds
       offset: 100, // Trigger point offset
       once: false, // Animates only once when in view
     });
@@ -21,10 +21,10 @@ const DetailsScreen = () => {
     <>
       <div
         id="details-screen"
-        className="text-white bg-gradient-to-br from-blue-700 via-yellow-100 to-blue-500 overflow-hidden px-4"
+        className="bg-gradient-to-br from-blue-700 via-yellow-100 to-blue-500 overflow-hidden px-4"
       >
         <div
-          className="grid sm:grid-cols-1 flex justify-between space-x-10 px-3 mt-8"
+          className="h-full grid sm:grid-cols-1 lg:flex justify-between space-x-10 px-3 mt-8 p-8 sm:p-10 lg:p-16"
           data-aos="fade-up"
         >
           <ProfileImage />
@@ -34,7 +34,8 @@ const DetailsScreen = () => {
             data-aos="fade-right"
           >
             <Description />
-            <div data-aos="fade-right">
+
+            <div data-aos="fade-right" className="lg:mt-3">
               <ContactDetails />
             </div>
           </div>

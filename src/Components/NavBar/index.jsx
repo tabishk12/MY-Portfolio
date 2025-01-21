@@ -8,9 +8,9 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="w-full pb-2.5 px-1.5 bg-transparent flex justify-between lg:h-16 ">
+      <nav className=" pb-2.5 px-1.5 flex justify-between lg:h-16 bg-transparent">
         <div className="text-3xl font-bold">
-          <h1 className="hover:scale-105 hover:bg-white hover:shadow-gray-100 px-3">
+          <h1 className="hover:scale-105 hover:shadow-gray-100 px-3">
             Portfolio
           </h1>
         </div>

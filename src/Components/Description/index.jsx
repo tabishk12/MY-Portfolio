@@ -5,7 +5,7 @@ const Description = () => {
     <>
       <div
         className="text-white bg-transparent rounded-lg p-8 md:p-12 lg:p-16 w-full max-w-* mx-auto transform transition 
-        duration-300 hover:scale-105 hover:mt-2 focus:ring-4 focus:ring-blue-400"
+       xs:p-4 duration-300 hover:scale-105 focus:ring-4 focus:ring-blue-400"
       >
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-6">
           Description

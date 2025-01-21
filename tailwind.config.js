@@ -7,7 +7,7 @@ export default {
       fontFamily:{sans:['Inter var', ...defaultTheme.fontFamily.sans]},
       
             screens: {
-              xs: {max:'585px'}, // Custom screen size
+              xs:{max:'585px'}, // Custom screen size
         },
     },
   },

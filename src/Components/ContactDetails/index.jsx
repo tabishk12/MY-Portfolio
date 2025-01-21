@@ -6,7 +6,10 @@ const ContactDetails = () => {
   return (
     <>
       {/* Parent div */}
-      <div className="md:flex md:flex-cols flex justify-between item-center w-full xs:grid xs:grid-cols-1 xs:space-y-1">
+      <div
+        className="md:flex md:flex-cols flex justify-between item-center w-full xs:grid xs:grid-cols-1 
+      xs:space-y-1 xs:pb-1 xs:space-[10px]"
+      >
         {" "}
         {/* xs is custom width defined in tailwind,config.js */}
         {/* Child 1 */}

@@ -4,7 +4,7 @@ const ListItems = () => {
   return (
     <>
       <li
-        className="text-xl px-4 hover:bg-slate-100 transform transition duration-900  hover:scale-105 cursor-pointer"
+        className="text-xl px-4 hover:bg-slate-100 transform transition duration-900  hover:scale-105 cursor-pointer rounded-lg"
         onClick={() => {
           setIsOpen(false);
         }}
@@ -14,7 +14,7 @@ const ListItems = () => {
         </ScrollLink>
       </li>
       <li
-        className="text-xl px-4 hover:bg-slate-100 px-4 transform transition duration-900  hover:scale-105 cursor-pointer cursor-pointer"
+        className="text-xl px-4 hover:bg-slate-100 px-4 transform transition duration-900  hover:scale-105 cursor-pointer cursor-pointer rounded-lg"
         onClick={() => {
           setIsOpen(false);
         }}
@@ -24,7 +24,7 @@ const ListItems = () => {
         </ScrollLink>
       </li>
       <li
-        className="text-xl px-4 hover:bg-slate-100 px-4  transform transition duration-900  hover:scale-105 cursor-pointer cursor-pointer"
+        className="text-xl px-4 hover:bg-slate-100 px-4  transform transition duration-900  hover:scale-105 cursor-pointer cursor-pointer rounded-lg"
         onClick={() => {
           setIsOpen(false);
         }}
